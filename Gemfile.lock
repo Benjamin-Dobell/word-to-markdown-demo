@@ -1,5 +1,6 @@
-PATH
-  remote: ../word-to-markdown
+GIT
+  remote: https://github.com/Benjamin-Dobell/word-to-markdown
+  revision: ece99861de4ee5abda9a02337b14a533617626fc
   specs:
     word-to-markdown (1.0.0)
       descriptive_statistics (~> 1.1)
