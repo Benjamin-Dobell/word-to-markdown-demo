@@ -8,3 +8,4 @@ gem 'github-markdown'
 gem 'rack-coffee'
 gem 'rerun'
 gem 'word-to-markdown', :git => "https://github.com/Benjamin-Dobell/word-to-markdown"
+gem 'reverse_markdown', :git => 'https://github.com/Benjamin-Dobell/reverse_markdown'

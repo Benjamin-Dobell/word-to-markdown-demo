@@ -1,6 +1,13 @@
 GIT
+  remote: https://github.com/Benjamin-Dobell/reverse_markdown
+  revision: 73a1da89940c92b757605de06cc44ad35596c939
+  specs:
+    reverse_markdown (0.6.0)
+      nokogiri
+
+GIT
   remote: https://github.com/Benjamin-Dobell/word-to-markdown
-  revision: b51e407761b5f29d186c0c011139a828bc1c193e
+  revision: 476148bc26d1a032d7b06a0cb6b3247005abcae3
   specs:
     word-to-markdown (1.0.0)
       descriptive_statistics (~> 1.1)
@@ -61,8 +68,6 @@ GEM
       ffi (>= 0.5.0)
     rerun (0.10.0)
       listen (~> 2.7, >= 2.7.3)
-    reverse_markdown (0.6.0)
-      nokogiri
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -82,5 +87,6 @@ DEPENDENCIES
   html-pipeline
   rack-coffee
   rerun
+  reverse_markdown!
   sinatra
   word-to-markdown!
